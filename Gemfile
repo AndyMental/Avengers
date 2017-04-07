@@ -15,7 +15,8 @@ gem 'paperclip'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'toastr-rails'
-
+gem "braintree", "~> 2.73.0"
+gem "figaro"
 
 group :development, :test do
     gem 'byebug'
