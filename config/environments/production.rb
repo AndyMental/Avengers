@@ -92,7 +92,7 @@ Rails.application.configure do
   #   enable_starttls_auto: true  }
 
   # Devise.config
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'https://shreecollection.herokuapp.com', port: 3000 }
 
   Braintree::Configuration.environment = :sandbox
   Braintree::Configuration.merchant_id = ENV['merchant_id']
