@@ -14,6 +14,8 @@ gem 'font-awesome-rails'
 gem 'paperclip'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+gem 'toastr-rails'
+
 
 group :development, :test do
     gem 'byebug'
